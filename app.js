@@ -280,7 +280,7 @@ document.addEventListener('keydown', event => {
   if (event.key === 'ArrowRight') document.getElementById('prev-btn')?.click();
 });
 
-fetch('questions.json?v=review-20260902')
+fetch('questions.json?v=course-review-20260903')
   .then(response => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
